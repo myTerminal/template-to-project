@@ -29,5 +29,11 @@
 
 - Update the following values as required
   - value of `start_url` in *manifest.json*, to specify the final URL to get manifest information and resources
+    - `/` for regular projects
+    - `/liquid/` for GitHub hosted projects
   - value of `origin` in *configs.json*, to specify the origin for service workers
+    - `/` for regular projects
+    - `/liquid/` for GitHub hosted projects
   - value of `publicPath` under `output` in *webpack.common.js* as necessary
+    - `/` for regular projects
+    - `''` for GitHub hosted projects
