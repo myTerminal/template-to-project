@@ -12,7 +12,7 @@
   - Update the `keywords` field with correct keywords
   - Remove the scripts `start`, if not required
 - Update or remove the *starter.js* file depending on whether is needs one
-- Update the variable called `sourceDir` in *webpack.common.js* and *webpack.prod.js*
+- Update the variable called `sourceDir` in *webpack.common.js*, *webpack.dev.js* and *webpack.prod.js*
   - Check for startup file name and extension
   - Verify and remove all loaders and static files mentioned
   - Check if `publicPath` under `output` is correct and whether it needs to be updated
