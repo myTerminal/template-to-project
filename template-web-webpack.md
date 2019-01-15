@@ -15,7 +15,6 @@
 - Update the variable called `sourceDir` in *webpack.common.js*, *webpack.dev.js* and *webpack.prod.js*
   - Check for startup file name and extension
   - Verify and remove all loaders and static files mentioned
-  - Check if `publicPath` under `output` is correct and whether it needs to be updated
 - Check if *data* directory is required under *source*
 - Make a reminder to update the *favicon.ico* file under *src* directory
 - Make a reminder to update icon files under *src* directory
@@ -27,13 +26,4 @@
 
 ## Changing values
 
-- Update the following values as required
-  - value of `start_url` in *manifest.json*, to specify the final URL to get manifest information and resources
-    - `/` for regular projects
-    - `/liquid/` for GitHub hosted projects
-  - value of `origin` in *configs.json*, to specify the origin for service workers
-    - `/` for regular projects
-    - `/liquid/` for GitHub hosted projects
-  - value of `publicPath` under `output` in *webpack.common.js* as necessary
-    - `/` for regular projects
-    - `''` for GitHub hosted projects
+All manual changes to values for debug and production have been replaced by scripts.
