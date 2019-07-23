@@ -23,6 +23,7 @@
 - Take care of the chores in *scripts* and *styles* directories in *src* directory
   - Update links of attached stylesheets if required
 - Try running the application and figure out the required files listed in *sw.js* in *src* directory
+- Update LICENSE.md if required, also update license badge in README.md
 
 ## Changing values
 
