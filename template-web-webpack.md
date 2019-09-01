@@ -1,4 +1,4 @@
-# template-web-webpack
+# template-web-app-webpack
 
 ## Layout
 
