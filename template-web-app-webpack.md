@@ -4,8 +4,8 @@
 
 - Blank out *README.md* and mention the right project name and mark the file as incomplete
 - In file *configs.json*, origin would be either
-  - `'/'` for web applications running under their own domain
-  - `'/liquid/'` for web applications hosted in a group like as on GitHub
+  - The static directory for web applications running under their own domain
+  - The directory representing their name, for web applications hosted in a group like as on GitHub
 - Update *package.json* with all references of project name and remove any dependency that would not be required
   - Properly update the `main` field with starter file
   - Update the `repositories`, `bugs` and `homepage` fields if hosting outside GitHub
